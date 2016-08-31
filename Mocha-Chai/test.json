@@ -1,0 +1,493 @@
+var testData = {
+  restaurantRequest: {
+    "action": "searchpg",
+    "params": {
+      "params": {
+        "output": "json",
+        "what": "ristoranti",
+        "client": "pgbrowsing",
+        "where": "Milano (MI)",
+        "device": "evo",
+        "version": "5.0.1"
+      }
+    }
+  },
+  searchpgRestaurants: {
+    "status": "200",
+    "what": "ristoranti",
+    "where": "Milano (MI)",
+    "longitude": 9.19419,
+    "latitude": 45.46356,
+    "sortby": "relevance",
+    "currentPage": 1,
+    "resultsInPage": 23,
+    "resultsNumber": 3501,
+    "isLastPage": false,
+    "results": [{
+      "cdAggregazione": "22982879",
+      "tif": "t",
+      "head": "Ti consigliamo a",
+      "body": "Il Ristorante Al Mercante ubicato in una zona ricca di edifici storici e dall’alto valore…",
+      "hasDetail": true,
+      "isPriority": true,
+      "isMobileTop": true,
+      "isInsertionist": true,
+      "showOnMap": false,
+      "hasDescription": true,
+      "hasEmailAddress": true,
+      "hasWebAddress": true,
+      "hasMobileSite": false,
+      "hasMobileApp": false,
+      "hasImages": true,
+      "hasVideo": false,
+      "hasReservation": false,
+      "hasEstimates": false,
+      "hasFreeWifi": false,
+      "flags": [
+        "email"
+      ],
+      "userDetail": "ristorantealmercante",
+      "urlDetail": "http://www.paginegialle.it/ristorantealmercante",
+      "urlDetailMobile": "http://m.paginegialle.it/info/ristorantealmercante",
+      "zip": "20123",
+      "city": "Milano",
+      "province": "MI",
+      "country": "it",
+      "distance": 0,
+      "geolevel": 1,
+      "phones": [{
+        "number": "+39 02 8052198",
+        "type": "fisso"
+      }],
+      "images": [{
+        "url": "http://img.pgol.it/img/A7/42/44/64/0/5278130.jpg",
+        "type": "gallery"
+      }],
+      "emailAddress": "almercante@goonnet.com",
+      "webAddress": "http://www.ristorantealmercante.it",
+      "comments": {
+        "total": 2,
+        "average": 4.5,
+        "legacyTotal": 2,
+        "legacyAverage": 4.5,
+        "access": "rw"
+      },
+      "quantity": 0,
+      "opecId": "DMWN4AA3",
+      "status": 0,
+      "id": "ristorantealmercante",
+      "name": "RISTORANTE AL MERCANTE",
+      "url": "detailpg?output\u003djson\u0026what\u003dristoranti\u0026client\u003dpgbrowsing\u0026where\u003dMilano+%28MI%29\u0026id\u003dristorantealmercante\u0026device\u003devo\u0026version\u003d5.0.1",
+      "category": {
+        "code": "027585100",
+        "description": "Ristoranti  e trattorie"
+      },
+      "address": "17, P. Mercanti",
+      "longitude": 9.18719,
+      "latitude": 45.46469,
+      "logo": "http://img.pgol.it/img/A7/42/44/64/0/A74244640_LG.gif",
+      "hasBusinessView": false,
+      "hasEmail": true,
+      "hasBooking": false,
+      "hasClusters": false,
+      "hasKeywords": false,
+      "hasMedia": true,
+      "isGc": false,
+      "hasEvents": false,
+      "hasInfo": true,
+      "hasDeals": false,
+      "hasMovies": false,
+      "hasBranches": false,
+      "hasWeb": true,
+      "hasShowcase": false
+    }, {
+      "cdAggregazione": "23801106",
+      "tif": "t",
+      "hasDetail": true,
+      "isMobileTop": true,
+      "isInsertionist": true,
+      "showOnMap": true,
+      "hasDescription": true,
+      "hasEmailAddress": true,
+      "hasWebAddress": true,
+      "hasMobileSite": false,
+      "hasMobileApp": false,
+      "hasImages": true,
+      "hasVideo": false,
+      "hasReservation": true,
+      "hasEstimates": false,
+      "hasFreeWifi": true,
+      "flags": [
+        "email",
+        "freewifi",
+        "reservation"
+      ],
+      "userDetail": "dacecco-mi",
+      "urlDetail": "http://www.paginegialle.it/dacecco-mi",
+      "urlDetailMobile": "http://m.paginegialle.it/info/dacecco-mi",
+      "zip": "20121",
+      "city": "Milano",
+      "province": "MI",
+      "country": "it",
+      "distance": 0,
+      "geolevel": 1,
+      "phones": [{
+        "number": "+39 02 6552141",
+        "type": "fisso"
+      }, {
+        "number": "+39 338 1025693",
+        "type": "fisso"
+      }, {
+        "number": "+39 02 6552141",
+        "type": "fax"
+      }],
+      "images": [{
+        "url": "http://img.pgol.it/img/Z0/55/43/24/0/11360097.jpg",
+        "type": "gallery"
+      }],
+      "emailAddress": "info@dacecco.com",
+      "webAddress": "http://www.dacecco.com",
+      "openings": {
+        "state": "closed",
+        "isOpenSoon": false,
+        "isOpen": false,
+        "isClosedSoon": false,
+        "isClosed": true
+      },
+      "comments": {
+        "total": 24,
+        "average": 4.3,
+        "legacyTotal": 24,
+        "legacyAverage": 4.3,
+        "access": "rw",
+        "comments": {}
+      },
+      "quantity": 0,
+      "opecId": "F8FVHAAH",
+      "status": 0,
+      "id": "dacecco-mi",
+      "name": "RISTORANTE PIZZERIA DA CECCO",
+      "url": "detailpg?output\u003djson\u0026what\u003dristoranti\u0026client\u003dpgbrowsing\u0026where\u003dMilano+%28MI%29\u0026id\u003ddacecco-mi\u0026device\u003devo\u0026version\u003d5.0.1",
+      "category": {
+        "code": "007585100",
+        "description": "Ristoranti"
+      },
+      "address": "34, V. Solferino",
+      "longitude": 9.18791,
+      "latitude": 45.4774,
+      "logo": "http://img.pgol.it/img/Z0/55/43/24/0/Z05543240_LG.gif",
+      "hasBusinessView": false,
+      "hasEmail": true,
+      "hasBooking": false,
+      "hasClusters": false,
+      "hasKeywords": false,
+      "hasMedia": true,
+      "isGc": false,
+      "hasEvents": false,
+      "hasInfo": true,
+      "hasDeals": false,
+      "hasMovies": false,
+      "hasBranches": false,
+      "hasWeb": true,
+      "hasShowcase": false
+    }],
+    "filters": [{
+      "id": "reservation",
+      "name": "prenotabili"
+    }, {
+      "id": "expo",
+      "name": "Eccellenze Italia"
+    }],
+    "sorts": [{
+      "id": "relevance",
+      "url": "searchpg?output\u003djson\u0026what\u003dristoranti\u0026client\u003dpgbrowsing\u0026where\u003dMilano+%28MI%29\u0026sortby\u003drelevance\u0026device\u003devo\u0026version\u003d5.0.1"
+    }, {
+      "id": "city",
+      "url": "searchpg?output\u003djson\u0026what\u003dristoranti\u0026client\u003dpgbrowsing\u0026where\u003dMilano+%28MI%29\u0026sortby\u003dcity\u0026device\u003devo\u0026version\u003d5.0.1"
+    }, {
+      "id": "popularity",
+      "url": "searchpg?output\u003djson\u0026what\u003dristoranti\u0026client\u003dpgbrowsing\u0026where\u003dMilano+%28MI%29\u0026sortby\u003dpopularity\u0026device\u003devo\u0026version\u003d5.0.1"
+    }],
+    "hasResults": true,
+    "isOk": true,
+    "isLocationAmbiguity": false,
+    "isError": false
+  },
+  detailpgRestaurtant: {
+    "status": "200",
+    "detail": {
+      "cdAggregazione": "44511440",
+      "categories": [
+        "Elettrodomestici - riparazione e vendita al dettaglio di accessori",
+        "Aspirapolvere e lucidatrici uso domestico",
+        "Elettrodomestici da incasso",
+        "Elettrodomestici - produzione e ingrosso",
+        "Elettrodomestici - vendita al dettaglio",
+        "Elettrodomestici accessori e parti - produzione e ingrosso",
+        "Frigoriferi - accessori e parti",
+        "Frigoriferi uso domestico - riparazione",
+        "Lavastoviglie e lavatrici - riparazione",
+        "Macchine agricole - commercio e riparazione"
+      ],
+      "tif": "t",
+      "gc": {
+        "banner": {
+          "small": "http://media2.pgol.it/Z02044490/8a178280-d7ba-4a2c-b896-706b3d10fc02.jpg",
+          "medium": "http://media2.pgol.it/Z02044490/8a178280-d7ba-4a2c-b896-706b3d10fc02.jpg",
+          "large": "http://media2.pgol.it/Z02044490/8a178280-d7ba-4a2c-b896-706b3d10fc02.jpg",
+          "iphone": "http://media2.pgol.it/Z02044490/8a178280-d7ba-4a2c-b896-706b3d10fc02.jpg"
+        },
+        "url": "detailpg?output\u003djson\u0026client\u003dpgmobile\u0026where\u003d\u0026id\u003dmieleelettrodomestici%2F26ED8B48-6849-DD26-E050-A8C08F26511A\u0026device\u003diphone\u0026version\u003d5.0.1"
+      },
+      "gcBanner": "http://media2.pgol.it/Z02044490/8a178280-d7ba-4a2c-b896-706b3d10fc02.jpg",
+      "gcUrl": "detailpg?output\u003djson\u0026client\u003dpgmobile\u0026where\u003d\u0026id\u003dmieleelettrodomestici%2F26ED8B48-6849-DD26-E050-A8C08F26511A\u0026device\u003diphone\u0026version\u003d5.0.1",
+      "hasDetail": true,
+      "isMypoints": true,
+      "isMobileTop": true,
+      "isInsertionist": true,
+      "hasEstimates": false,
+      "hasFreeWifi": false,
+      "flags": [
+        "insertionist"
+      ],
+      "userDetail": "mieleelettrodomestici",
+      "urlDetail": "http://www.paginegialle.it/mieleelettrodomestici",
+      "urlDetailMobile": "http://m.paginegialle.it/info/mieleelettrodomestici/26ED8B48-6849-DD26-E050-A8C08F26511A?fromapp\u003dpgmobile",
+      "zip": "20017",
+      "city": "Rho",
+      "province": "MI",
+      "country": "it",
+      "distance": 490600,
+      "geolevel": 1,
+      "phones": [{
+        "number": "+39 0293506004",
+        "type": "fisso"
+      }],
+      "wwws": [
+        "http://www.miele.it"
+      ],
+      "keywords": [{
+        "type": "main",
+        "title": "attività servizi e dettagli",
+        "items": [{
+          "type": "2504",
+          "value": "forni"
+        }, {
+          "type": "4751",
+          "value": "elettrodomestici da incasso"
+        }, {
+          "type": "25964",
+          "value": "elettrodomestici"
+        }, {
+          "type": "2496",
+          "value": "congelatori"
+        }, {
+          "type": "109",
+          "value": "cappe aspiranti"
+        }, {
+          "type": "2493",
+          "value": "aspirapolvere"
+        }]
+      }],
+      "clusters": [{
+        "type": "23",
+        "title": "Prodotti",
+        "items": [{
+          "type": "216960",
+          "value": "lavatrici"
+        }, {
+          "type": "2509",
+          "value": "lavastoviglie"
+        }, {
+          "type": "2505",
+          "value": "forni a microonde"
+        }, {
+          "value": "accessori aspirapolvere"
+        }, {
+          "value": "accessori cappe aspiranti"
+        }, {
+          "value": "accessori collegamento in rete elettrodomestici"
+        }, {
+          "value": "accessori forni e forni a vapore"
+        }, {
+          "value": "accessori lavastoviglie"
+        }, {
+          "value": "accessori macchine per caffe’ con macinatore automatico"
+        }, {
+          "value": "accessori per frigoriferi, congelatori ed enoteche"
+        }, {
+          "value": "accessori per lavatrici, asciugatrici e stiratrici"
+        }, {
+          "value": "accessori per piani cottura e set combinati"
+        }, {
+          "value": "asciugabiancheria"
+        }, {
+          "value": "asciugatrice"
+        }, {
+          "value": "asciugatrici"
+        }, {
+          "value": "aspirapolvere a traino"
+        }, {
+          "value": "aspirapolvere robot"
+        }, {
+          "value": "battitappeti"
+        }, {
+          "value": "cappe"
+        }, {
+          "value": "cappe aspiranti a muro e a isola"
+        }, {
+          "value": "cappe aspiranti da incasso"
+        }, {
+          "value": "cassetti"
+        }, {
+          "value": "congelatori a pozzo"
+        }, {
+          "value": "detersivi miele"
+        }, {
+          "value": "detersivi per lavastoviglie miele"
+        }, {
+          "value": "elettrodomestici in promozione"
+        }, {
+          "value": "forni a vapore"
+        }, {
+          "value": "forni a vapore combinati"
+        }, {
+          "value": "forni a vapore uso domestico"
+        }, {
+          "value": "forni multifunzione combinati microonde"
+        }, {
+          "value": "forni ventilato"
+        }, {
+          "value": "forno a vapore con microonde"
+        }, {
+          "value": "frigo-cantina per vini"
+        }, {
+          "value": "frigo-congelatori"
+        }, {
+          "value": "frigoriferi"
+        }, {
+          "value": "lava-asciuga"
+        }, {
+          "value": "lavastoviglie a vista"
+        }, {
+          "value": "lavastoviglie da incasso"
+        }, {
+          "value": "lavastoviglie da posizionamento libero"
+        }, {
+          "value": "lavastoviglie per la casa"
+        }, {
+          "value": "lavatrici da incasso"
+        }, {
+          "value": "lavatrici per comunità"
+        }, {
+          "value": "macchine per caffe’ automatiche"
+        }, {
+          "value": "macchine per il caffe’ a posizionamento libero"
+        }, {
+          "value": "macchine per il caffe’ da incasso"
+        }, {
+          "value": "piani cottura"
+        }, {
+          "value": "piani cottura a gas"
+        }, {
+          "value": "piani cottura elettrici"
+        }, {
+          "value": "piani cottura elettrici a induzione"
+        }, {
+          "value": "prodotti per la pulizia miele"
+        }, {
+          "value": "profumatore per l’asciugabiancheria"
+        }, {
+          "value": "ricambi per  cappe aspiranti"
+        }, {
+          "value": "sacchetti polvere originali miele"
+        }, {
+          "value": "scopa elettrica"
+        }, {
+          "value": "set combinati"
+        }, {
+          "value": "sistemi downdraft"
+        }, {
+          "value": "stiratrici"
+        }]
+      }, {
+        "type": "30",
+        "title": "Servizi",
+        "items": [{
+          "value": "cura degli elettrodomestici"
+        }]
+      }, {
+        "type": "5",
+        "title": "Attività",
+        "items": [{
+          "type": "2483",
+          "value": "riparazione lavatrici"
+        }, {
+          "type": "2482",
+          "value": "riparazione lavastoviglie"
+        }, {
+          "value": "manutenzione elettrodomestici"
+        }]
+      }],
+      "comments": {
+        "total": 0,
+        "average": 0.0,
+        "legacyTotal": 0,
+        "legacyAverage": 0.0,
+        "access": "rw"
+      },
+      "main": {
+        "isMypoints": true,
+        "quantity": 0,
+        "status": 0,
+        "id": "mieleelettrodomestici",
+        "hasBusinessView": false,
+        "hasEmail": false,
+        "hasBooking": false,
+        "hasMobileApp": false,
+        "hasEstimates": false,
+        "hasClusters": false,
+        "hasKeywords": false,
+        "hasReservation": false,
+        "hasMedia": false,
+        "isGc": false,
+        "hasEvents": false,
+        "hasImages": false,
+        "hasFreeWifi": false,
+        "hasVideo": false,
+        "hasInfo": false,
+        "hasDeals": false,
+        "hasWebAddress": false,
+        "hasMovies": false,
+        "hasBranches": false,
+        "hasWeb": false,
+        "hasShowcase": false
+      },
+      "quantity": 0,
+      "status": 0,
+      "id": "mieleelettrodomestici/26ED8B48-6849-DD26-E050-A8C08F26511A",
+      "name": "TRONY",
+      "description": "MIELE #Miele è leader mondiale nel settore degli elettrodomestici altamente innovativi e di qualità. L’azienda, fondata nel 1899, è guidata dalla filosofia Immer Besser, sempre meglio. Grazie alla costante ricerca in campo tecnologico ed innovativo, Miele offre una gamma di prodotti dedicati alla cottura capaci di unire il design all’efficienza delle prestazioni e alla semplicità di utilizzo.\nIn particolare, Miele permette una cottura che mantiene intatte le proprietà nutritive degli alimenti per \"trasformare\" in maniera ottimale la materia prima, rispettandola. Soluzioni intelligenti, che consentono di ottenere risultati sempre perfetti, senza sprechi grazie ad elettrodomestici concepiti nel pieno rispetto dell’ambiente e delle sue risorse.\n",
+      "category": {
+        "code": "003229100",
+        "description": "Elettrodomestici - riparazione e vendita al dettaglio di accessori"
+      },
+      "address": "Snc - Angolo Via Capuana, Corso Europa",
+      "longitude": 9.04083,
+      "latitude": 45.53308,
+      "logo": "http://media2.pgol.it/Z02044490/8a178280-d7ba-4a2c-b896-706b3d10fc02.jpg",
+      "hasEmail": false,
+      "hasBooking": false,
+      "hasReservation": false,
+      "hasMedia": true,
+      "isGc": false,
+      "hasImages": true,
+      "hasWebAddress": true,
+      "hasMovies": false,
+      "hasBranches": false,
+      "hasWeb": true,
+      "hasShowcase": false
+    },
+    "isOk": true
+  }
+}
